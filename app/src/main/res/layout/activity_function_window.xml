@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FunctionWindow"
+    android:orientation="vertical"
+    android:background="@drawable/login">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dog"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/welcome"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dog"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_get_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Music"
+            tools:ignore="ButtonStyle"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button_singer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Singer Search"
+            tools:ignore="ButtonStyle"
+            android:layout_gravity="center"/>
+
+        <CheckBox
+            android:id="@+id/button_rock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rock"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/button_classical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Classical"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/button_metal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metal"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/button_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blue"></CheckBox>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Interested Music:">
+        </TextView>
+
+        <EditText
+            android:id="@+id/text_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+        <EditText
+            android:id="@+id/text_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

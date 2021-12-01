@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Login_demo</string>
+    <string name="welcome">Pompeii System</string>
+    <string name="register">registration system</string>
+    <string-array name="frequency">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+
+</resources>
+
